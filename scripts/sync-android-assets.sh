@@ -1,9 +1,6 @@
 #!/bin/bash
-# V95 — Senkronize sèlman moso PWOP LOKAL yo (ajan.html + assets/lang/
-# manifest/favicon) soti nan public/ ale nan android/app/src/main/assets/public/,
-# pou WebViewAssetLoader ka sèvi yo anndan APK la san rekonekte sou entènèt.
-# Itilize pa .github/workflows/android-build.yml — ka lanse lokalman tou:
-#   ./scripts/sync-android-assets.sh
+# V95 — Senkronize sèlman moso PWOP LOKAL yo (ajan.html + /
+
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
